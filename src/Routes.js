@@ -10,9 +10,9 @@ const Routes = () => {
     <>
       <Router>
         <Route path="/" exact component={Home} />
-        <Route path="/products/:id" exact component={ProductDetails} />
-        <Route path="/products" exact component={Products} />
-        <Route path="/cart" exact component={Cart} />
+        <Route path="/products/:id" component={ProductDetails} />
+        <Route path="/products" component={Products} />
+        <Route path="/cart" component={Cart} />
       </Router>
     </>
   )
