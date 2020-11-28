@@ -1,0 +1,98 @@
+.header {  
+  position: absolute;
+  width: 100vw;
+  height: 72px;
+  background: #2E2E2E;
+}
+
+.header .div-logo {
+  position: absolute;
+  height: 29px;
+  left: 5%;
+  right: 11.35%;
+  top: calc(50% - 29px/2 + 0.5px);
+  text-decoration: none;
+  width: 200px;
+}
+
+.header .div-logo .logo {  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 4px;
+  text-decoration: none;  
+  color: #F62F5E;  
+}
+
+.header .links {
+  position: absolute;
+  left: 30%;
+  top: calc(60% - 29px/2 + 0.5px);
+  display: flex;
+  font-weight: 700;
+}
+
+.header .links li {
+  list-style: none;
+}
+
+.header .links li a{
+  color: #fff;
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+.header .input-icons {
+  position: absolute;
+  left: 65%;
+  top: calc(45% - 29px/2 + 0.5px);
+  width: 350px;
+}
+
+.header .input-icons input{
+  outline: none;
+  height: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  padding-left: 35px;
+  background-color: rgba(255, 255, 255, 0.501783);
+  border: 0;
+  border-radius:50px;  
+  width: 350px;
+  caret-color: #fff;
+}
+
+.header .input-icons input::placeholder{
+  color: #fff;
+  font-size: 14px;
+}
+
+.header .input-icons .icon-search{ 
+  position: absolute; 
+  color: #fff;
+  top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header .input-icons .icon-close{ 
+  position: absolute; 
+  cursor: pointer;
+  color: #fff;
+  top: 9px;
+  right: 12px;
+}
+
+.header .cart-icon {
+  position: absolute; 
+  cursor: pointer;
+  right: 2%;
+  top: calc(55% - 29px/2 + 0.5px);
+  font-size: 20px;
+}
+.header .cart-icon a{
+  color: #fff;
+
+}
