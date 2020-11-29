@@ -4,7 +4,6 @@
   height: 72px;
   background: #2E2E2E;
 }
-
 .header .div-logo {
   position: absolute;
   height: 29px;
@@ -14,7 +13,6 @@
   text-decoration: none;
   width: 200px;
 }
-
 .header .div-logo .logo {  
   font-family: Montserrat;
   font-style: normal;
@@ -25,7 +23,6 @@
   text-decoration: none;  
   color: #F62F5E;  
 }
-
 .header .links {
   position: absolute;
   left: 30%;
@@ -33,24 +30,20 @@
   display: flex;
   font-weight: 700;
 }
-
 .header .links li {
   list-style: none;
 }
-
 .header .links li a{
   color: #fff;
   margin-right: 25px;
   text-decoration: none;
 }
-
 .header .input-icons {
   position: absolute;
   left: 65%;
   top: calc(45% - 29px/2 + 0.5px);
   width: 350px;
 }
-
 .header .input-icons input{
   outline: none;
   height: 36px;
@@ -63,12 +56,10 @@
   width: 350px;
   caret-color: #fff;
 }
-
 .header .input-icons input::placeholder{
   color: #fff;
   font-size: 14px;
 }
-
 .header .input-icons .icon-search{ 
   position: absolute; 
   color: #fff;
@@ -76,7 +67,6 @@
   margin-left: 10px;
   cursor: pointer;
 }
-
 .header .input-icons .icon-close{ 
   position: absolute; 
   cursor: pointer;
@@ -84,7 +74,6 @@
   top: 9px;
   right: 12px;
 }
-
 .header .cart-icon {
   position: absolute; 
   cursor: pointer;
@@ -94,5 +83,61 @@
 }
 .header .cart-icon a{
   color: #fff;
+}
 
+.header .menu-hamburguer{
+  display: none;
+}
+
+.header .menu-hamburguer .icon-hamburguer{
+  color: #fff;
+}
+
+.header .menu-lateral {
+  display: none;
+}
+
+@media only screen and (max-width: 1150px) {
+  .header .input-icons{ 
+    display: none;
+  }
+  .header .links {
+    display: none;
+  }
+  .header .cart-icon {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    right: 10%;
+    top: calc(55% - 29px/2 + 0.5px);
+    font-size: 20px;
+  }
+  .header .menu-hamburguer{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: calc(55% - 29px/2 + 0.5px);
+    font-size: 20px;
+  }
+  .header .menu-lateral {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: calc(100% - 2px/2 + 0.5px);
+    background-color: #2E2E2E;
+    width: 200px;
+    height: auto;
+  }
+  .header .menu-lateral .links-lateral {
+    list-style: none;
+  }
+  .header .menu-lateral .links-lateral a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .header .menu-lateral .links-lateral li{
+    font-weight: 700;
+    padding: 5px;
+  }
 }

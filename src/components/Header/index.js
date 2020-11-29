@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import MenuBurguer from '../BurguerMenu';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch, faTimes, faShoppingBag } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faTimes, faShoppingBag, faBars } from '@fortawesome/free-solid-svg-icons'
 
 import './styles.css';
 
 const Header = () => {
+
+  const [open, setOpen] = useState(false);
+  
+  const handleMenu = () => {
+    setOpen(!open);
+  }
+
   return (
     <header className="header">
       <div className="div-logo">
@@ -32,6 +41,13 @@ const Header = () => {
           <FontAwesomeIcon className="icon-cart" icon={faShoppingBag} />
         </Link>
       </div>
+
+      <div className="menu-hamburguer">
+          <FontAwesomeIcon className="icon-hamburguer" icon={faBars} onClick={handleMenu}/>
+      </div>
+
+      <MenuBurguer open={open}/>
+
     </header>
   )
 }
