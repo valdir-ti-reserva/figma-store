@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 
 const ProductDetails = () => {
@@ -8,6 +9,7 @@ const ProductDetails = () => {
       <div className="container">
         Product Details
       </div>
+      <Footer />
     </>
   )
 }
