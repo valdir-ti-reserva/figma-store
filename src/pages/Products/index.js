@@ -3,12 +3,13 @@ import Header from '../../components/Header';
 
 const Product = () => {
   return (
-    <div>
+    <>
       <Header />
-      <h2>Products</h2>
-    </div>
+      <div className="container">
+        Products
+      </div>
+    </>
   )
 }
 
-
-export default Product;
+export default Product
