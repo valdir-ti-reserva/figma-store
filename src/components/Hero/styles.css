@@ -1,0 +1,64 @@
+.hero .hero-title{
+  position: absolute;
+  top: 0;
+}
+.hero img {
+  width: 100%;
+  background-size: cover;
+}
+.hero .hero-title .hero-title1{
+  font-family: 'Playfair Display', serif;
+  position: relative;
+  top: 12rem;
+  left: 8rem;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.hero .hero-title .hero-and{
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  top: 12rem;
+  left: 34rem;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.hero .hero-title .hero-title2{
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  top: 18rem;
+  left: 8rem;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.hero .hero-title .hero-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 25rem;
+  left: 8rem;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  width: 30rem;
+  letter-spacing: 2px;
+  line-height: 2rem;
+}
+
+.hero button {
+  position: absolute;
+  top: 34rem;
+  left: 8rem;
+  border: 0;
+  padding: 10px;
+  color: #F62F5E;
+  font-weight: 700;
+  border-radius: 20px;
+  background: #fff;
+  width: 150px;
+  outline: none;
+  cursor: pointer;
+}

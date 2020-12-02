@@ -7,4 +7,6 @@
 
 .container {
   padding-top: 72px;
+  width: 80vw;
+  margin: 0 auto;
 }
